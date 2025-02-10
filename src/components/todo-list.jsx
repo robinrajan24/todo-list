@@ -8,8 +8,12 @@ const TodoList = () => {
         <div className="flex mb-6">
           <input
             type="text"
-            className="flex-grow p-3 border-2 border-blue-300 rounded-l-lg"
+            className="flex-grow p-3 border-2 border-blue-300 rounded-l-lg focus:outline-none focus-ring-2 focus-ring-blue-500"
+            placeholder="What needs to be done?"
           />
+          <button className="bg-blue-500 text-white px-4 rounded-r-lg hover:bg-blue-600 transition-color">
+            Add
+          </button>
         </div>
       </div>
     </div>
